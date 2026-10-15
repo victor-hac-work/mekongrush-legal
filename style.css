@@ -1,0 +1,7 @@
+:root{--bg:#fbedd3;--card:#fff7e8;--ink:#4a3426;--soft:#7a5a44;--rim:#c9a27a;--accent:#e8483f}
+@media (prefers-color-scheme:dark){:root{--bg:#231a14;--card:#2f241c;--ink:#f3e6d2;--soft:#cdb59a;--rim:#5c4636;--accent:#ff7a6e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Be Vietnam Pro",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+.card{background:var(--card);border:2px solid var(--rim);border-radius:20px;padding:24px;margin:20px 0}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:21px;margin:24px 0 8px}p,li{color:var(--ink)}small,.muted{color:var(--soft)}
+a{color:var(--accent)}nav a{margin-right:16px;font-weight:700}
